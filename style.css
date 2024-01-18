@@ -5,6 +5,7 @@ body{
     background-color: black;
     color: white;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 
@@ -175,3 +176,66 @@ font-size: 1.25rem;
 .dark i{
    margin-right: 5px;
 }
+
+
+@media (max-width:1000px) {
+    .hide{
+        display: none;
+    }
+}
+
+
+
+.card-container{
+    background-color: #232322;
+    width: 250px;
+    border-radius: 0.5rem;
+    height: 250px;
+    
+    margin-left: 20px;
+    
+    
+}
+
+.card-container img{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 30px;
+    left: 60px;
+    scale: 1.2;
+    border-radius: 5px;
+}
+
+.card-container p{
+    /* margin-top: 48px; */
+    margin-left: 10px;
+    width: 100%;
+}
+
+.marginduga {
+    margin-top: 50px;
+}
+
+.card-info{
+    font-size: 12px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.cardkeniche{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.teendiv{
+    display: flex;
+}
+
+
