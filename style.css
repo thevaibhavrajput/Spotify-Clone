@@ -35,7 +35,10 @@ body{
     bottom: 0px;
     width: 100%;
     height: 72px;
+   
 }
+
+
 
 a{
     text-decoration: none;
@@ -154,6 +157,8 @@ font-size: 1.25rem;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    z-index: 12;
+    box-shadow: 0px 12px 12px #232322;
 }
 
 .sticky-nav-options{
@@ -239,3 +244,119 @@ font-size: 1.25rem;
 }
 
 
+.music-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.album{
+    width: 25%;
+    /* background-color: pink; */
+}
+
+.player{
+    width: 50%;
+    /* background-color: orange; */
+}
+
+.controls{
+    width: 25%;
+    /* background-color:green ; */
+}
+
+.player-control-icon{
+    height: 1rem;
+    margin-right: 2rem;
+    opacity: 0.7;
+}
+.player-control-icon:hover{
+    opacity: 1;
+}
+
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playback-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-bar{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 16px;
+    width: 16px;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+.album{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+}
+
+.chotepara{
+    line-height: 6px;
+}
+
+.choteicons{
+    position: relative;
+    right: 120px;
+    
+}
+
+.iconns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.iconns img{
+height: 1.5rem;
+width: 1.5rem;
+
+}
+
+.progress-bar2{
+    width: 30%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar2::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.progress-bar2::-webkit-slider-thumb{
+    appearance: none;
+    height: 16px;
+    width: 16px;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+}
